@@ -1,0 +1,6 @@
+DROP TABLE example;
+
+CREATE TABLE example (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255)
+);
