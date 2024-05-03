@@ -1,11 +1,11 @@
 package ch.obermuhlner.kotlin.jooq
 
-import org.example.jooq.public_.Tables.DEPARTMENT
-import org.example.jooq.public_.Tables.EMPLOYEE
-import org.example.jooq.public_.tables.pojos.Department
-import org.example.jooq.public_.tables.pojos.Employee
-import org.example.jooq.public_.tables.records.DepartmentRecord
-import org.example.jooq.public_.tables.records.EmployeeRecord
+import org.example.jooq.Tables.DEPARTMENT
+import org.example.jooq.Tables.EMPLOYEE
+import org.example.jooq.tables.pojos.Department
+import org.example.jooq.tables.pojos.Employee
+import org.example.jooq.tables.records.DepartmentRecord
+import org.example.jooq.tables.records.EmployeeRecord
 import org.jooq.DSLContext
 import org.jooq.impl.DSL
 import java.math.BigDecimal

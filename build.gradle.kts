@@ -58,6 +58,7 @@ jooq {
                     database.apply {
                         name = "org.jooq.meta.h2.H2Database"
                         includes = ".*"
+                        inputSchema = "PUBLIC"
                     }
                     target.apply {
                         packageName = "org.example.jooq"
