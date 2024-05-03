@@ -22,6 +22,7 @@ val jdbcPassword = ""
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib")
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jooq:jooq:$jooqVersion")
     implementation("com.h2database:h2:$h2Version")
     jooqGenerator("com.h2database:h2:$h2Version")
