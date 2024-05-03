@@ -63,6 +63,10 @@ jooq {
                         packageName = "org.example.jooq"
                         directory = "src/main/java"
                     }
+                    generate.apply {
+                        isPojos = true
+                        isImmutablePojos = true
+                    }
                 }
             }
         }
